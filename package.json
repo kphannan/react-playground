@@ -1,0 +1,8 @@
+{
+  "name": "rail-ui",
+  "version": "0.0.1",
+  "description": "Experimental web UI to experiment with PatternFly, React/Redux, Bootstrap.",
+  "main": "index.js",
+  "author": "Kevin Hannan <kphannan@gmail.com>",
+  "license": "MIT"
+}
