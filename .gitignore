@@ -130,3 +130,7 @@ typings/
 # Serverless directories
 .serverless
 
+
+## Webpack
+dist/
+

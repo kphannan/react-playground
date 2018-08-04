@@ -4,5 +4,9 @@
   "description": "Experimental web UI to experiment with PatternFly, React/Redux, Bootstrap.",
   "main": "index.js",
   "author": "Kevin Hannan <kphannan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "webpack": "^4.16.4"
+  }
 }
