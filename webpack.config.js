@@ -7,6 +7,7 @@
 
 var webpack = require('webpack');
 var path = require( 'path' );
+var nodeExternals = require( 'webpack-node-externals' );
 
 var BUILD_DIR = path.join( __dirname, 'dist' );
 var APP_DIR = path.join( __dirname, 'src' );
@@ -33,8 +34,14 @@ var config = {
             },
             {
                 test: /\.(js|jsx)$/,
+                include: /src/,
                 exclude: /node_modules/,
-                use: 'babel-loader'
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env']
+                    }
+                }
             }
         ]
         // loaders: [
