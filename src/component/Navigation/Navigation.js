@@ -4,48 +4,48 @@ import React from 'react';
 const Navigation = ({p}) => (
 
 
-<div class="nav-pf-vertical nav-pf-vertical-with-sub-menus nav-pf-persistent-secondary">
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a href="#0">
-        <span class="fa fa-dashboard" data-toggle="tooltip" title="" data-original-title="Dashboard"></span>
-        <span class="list-group-item-value">Dashboard</span>
+<div className="nav-pf-vertical nav-pf-vertical-with-sub-menus nav-pf-persistent-secondary">
+  <ul className="list-group">
+    <li className="list-group-item">
+      <a href="/">
+        <span className="fa fa-dashboard" data-toggle="tooltip" title="" data-original-title="Dashboard"></span>
+        <span className="list-group-item-value">Dashboard</span>
       </a>
     </li>
-    <li class="list-group-item">
-      <a href="#0">
-        <span class="fa fa-shield" data-toggle="tooltip" title="" data-original-title="Dolor"></span>
-        <span class="list-group-item-value">Dolor</span>
+    <li className="list-group-item">
+      <a href="/profile">
+        <span className="fa fa-shield" data-toggle="tooltip" title="" data-original-title="Profile"></span>
+        <span className="list-group-item-value">Profile and Communication Preferences</span>
 
       </a>
     </li>
-    <li class="list-group-item active secondary-nav-item-pf" data-target="#ipsum-secondary">
-      <a href="#0">
-        <span class="fa fa-space-shuttle" data-toggle="tooltip" title="" data-original-title="Ipsum"></span>
-        <span class="list-group-item-value">Ipsum</span>
+    <li className="list-group-item active secondary-nav-item-pf" data-target="#ipsum-secondary">
+      <a href="/accounts">
+        <span className="fa fa-space-shuttle" data-toggle="tooltip" title="" data-original-title="Ipsum"></span>
+        <span className="list-group-item-value">Accounts</span>
       </a>
 
-      <div id="-secondary" class="nav-pf-secondary-nav">
-          <div class="nav-item-pf-header">
-            <a href="#0" class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
-            <span>Ipsum</span>
+      <div id="-secondary" className="nav-pf-secondary-nav">
+          <div className="nav-item-pf-header">
+            <a href="/taks" className="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+            <span>Tasks</span>
           </div>
-          <ul class="list-group">
-            <li class="list-group-item active " data-target="#ipsum-intellegam-tertiary">
+          <ul className="list-group">
+            <li className="list-group-item active " data-target="#ipsum-intellegam-tertiary">
               <a href="#0">
-                <span class="list-group-item-value">Intellegam</span>
+                <span className="list-group-item-value">Intellegam</span>
               </a>
 
             </li>
-            <li class="list-group-item " data-target="#ipsum-copiosae-tertiary">
+            <li className="list-group-item " data-target="#ipsum-copiosae-tertiary">
               <a href="#0">
-                <span class="list-group-item-value">Copiosae</span>
+                <span className="list-group-item-value">Copiosae</span>
               </a>
 
             </li>
-            <li class="list-group-item " data-target="#ipsum-patrioque-tertiary">
+            <li className="list-group-item " data-target="#ipsum-patrioque-tertiary">
               <a href="#0">
-                <span class="list-group-item-value">Patrioque</span>
+                <span className="list-group-item-value">Patrioque</span>
               </a>
 
             </li>
@@ -55,39 +55,39 @@ const Navigation = ({p}) => (
 
 
     </li>
-    <li class="list-group-item secondary-nav-item-pf" data-target="#amet-secondary">
-      <a href="#0">
-        <span class="fa fa-paper-plane" data-toggle="tooltip" title="" data-original-title="Amet"></span>
-        <span class="list-group-item-value">Amet</span>
+    <li className="list-group-item secondary-nav-item-pf" data-target="#amet-secondary">
+      <a href="/payer">
+        <span className="fa fa-paper-plane" data-toggle="tooltip" title="" data-original-title="Amet"></span>
+        <span className="list-group-item-value">Payer</span>
       </a>
 
-      <div id="amet-secondary" class="nav-pf-secondary-nav">
-  <div class="nav-item-pf-header">
-    <a href="#0" class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
-    <span>Amet</span>
+      <div id="amet-secondary" className="nav-pf-secondary-nav">
+  <div className="nav-item-pf-header">
+    <a href="/payer" className="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+    <span>Payer</span>
   </div>
-  <ul class="list-group">
-    <li class="list-group-item " data-target="#amet-detracto-tertiary">
+  <ul className="list-group">
+    <li className="list-group-item " data-target="#amet-detracto-tertiary">
       <a href="#0">
-        <span class="list-group-item-value">Detracto Suscipiantur</span>
+        <span className="list-group-item-value">Detracto Suscipiantur</span>
 
 
 
       </a>
 
     </li>
-    <li class="list-group-item " data-target="#amet-mediocrem-tertiary">
+    <li className="list-group-item " data-target="#amet-mediocrem-tertiary">
       <a href="#0">
-        <span class="list-group-item-value">Mediocrem</span>
+        <span className="list-group-item-value">Mediocrem</span>
 
 
 
       </a>
 
     </li>
-    <li class="list-group-item " data-target="#amet-corrumpit-tertiary">
+    <li className="list-group-item " data-target="#amet-corrumpit-tertiary">
       <a href="#0">
-        <span class="list-group-item-value">Corrumpit Cupidatat Proident Deserunt</span>
+        <span className="list-group-item-value">Corrumpit Cupidatat Proident Deserunt</span>
 
 
 
@@ -100,64 +100,64 @@ const Navigation = ({p}) => (
 
 
     </li>
-    <li class="list-group-item">
+    <li className="list-group-item">
       <a href="#0">
-        <span class="fa fa-graduation-cap" data-toggle="tooltip" title="" data-original-title="Adipscing"></span>
-        <span class="list-group-item-value">Adipscing</span>
+        <span className="fa fa-graduation-cap" data-toggle="tooltip" title="" data-original-title="Adipscing"></span>
+        <span className="list-group-item-value">Adipscing</span>
       </a>
     </li>
-    <li class="list-group-item">
-      <a href="#0">
-        <span class="fa fa-gamepad" data-toggle="tooltip" title="" data-original-title="Lorem"></span>
-        <span class="list-group-item-value">Lorem</span>
+    <li className="list-group-item">
+      <a href="/tasks">
+        <span className="fa fa-gamepad" data-toggle="tooltip" title="" data-original-title="Lorem"></span>
+        <span className="list-group-item-value">Tasks</span>
       </a>
     </li>
 
-    <li class="list-group-item secondary-nav-item-pf mobile-nav-item-pf visible-xs-block">
+    <li className="list-group-item secondary-nav-item-pf mobile-nav-item-pf visible-xs-block">
       <a href="#0">
-        <span class="pficon pficon-user" data-toggle="tooltip" title="" data-original-title="User"></span>
-        <span class="list-group-item-value dropdown-title">User</span>
+        <span className="pficon pficon-user" data-toggle="tooltip" title="" data-original-title="User"></span>
+        <span className="list-group-item-value dropdown-title">User</span>
       </a>
-      <div id="user-secondary" class="nav-pf-secondary-nav">
-        <div class="nav-item-pf-header">
-          <a href="#0" class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+      <div id="user-secondary" className="nav-pf-secondary-nav">
+        <div className="nav-item-pf-header">
+          <a href="#0" className="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
           <span>User</span>
         </div>
 
-        <ul class="list-group">
-          <li class="list-group-item">
+        <ul className="list-group">
+          <li className="list-group-item">
             <a href="#0">
-              <span class="list-group-item-value">Preferences</span>
+              <span className="list-group-item-value">Preferences</span>
             </a>
           </li>
 
-          <li class="list-group-item">
+          <li className="list-group-item">
             <a href="#0">
-              <span class="list-group-item-value">Logout</span>
+              <span className="list-group-item-value">Logout</span>
             </a>
           </li>
         </ul>
       </div>
     </li>
-    <li class="list-group-item secondary-nav-item-pf mobile-nav-item-pf visible-xs-block" data-target="#amet-secondary">
+    <li className="list-group-item secondary-nav-item-pf mobile-nav-item-pf visible-xs-block" data-target="#amet-secondary">
       <a href="#0">
-        <span class="pficon pficon-help" data-toggle="tooltip" title="" data-original-title="Help"></span>
-        <span class="list-group-item-value dropdown-title">Help</span>
+        <span className="pficon pficon-help" data-toggle="tooltip" title="" data-original-title="Help"></span>
+        <span className="list-group-item-value dropdown-title">Help</span>
       </a>
-      <div id="help-secondary" class="nav-pf-secondary-nav">
-        <div class="nav-item-pf-header">
-          <a href="#0" class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+      <div id="help-secondary" className="nav-pf-secondary-nav">
+        <div className="nav-item-pf-header">
+          <a href="#0" className="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
           <span>Help</span>
         </div>
-        <ul class="list-group">
-          <li class="list-group-item">
+        <ul className="list-group">
+          <li className="list-group-item">
             <a href="#0">
-              <span class="list-group-item-value">Help</span>
+              <span className="list-group-item-value">Help</span>
             </a>
           </li>
-          <li class="list-group-item">
+          <li className="list-group-item">
             <a href="#0">
-              <span class="list-group-item-value">About</span>
+              <span className="list-group-item-value">About</span>
             </a>
           </li>
         </ul>
