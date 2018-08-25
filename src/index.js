@@ -24,6 +24,8 @@ import Physicians from './component/Physicians/Physicians';
 import Profile from './component/Profile/Profile';
 import Tasks from './component/Tasks/Tasks';
 import Home from './component/Home/Home';
+import Login  from './component/Login/Login';
+import Logout from './component/Login/Login';
 // import {} from './component//';
 // import {} from './component//';
 // import {} from './component//';
@@ -55,7 +57,9 @@ ReactDOM.render(
                 <Route path="/drugs"      component={Drugs} />
                 <Route path="/physicians" component={Physicians} />
                 <Route path="/profile"    component={Profile} />
-                <Route path="/tasks"    component={Tasks} />
+                <Route path="/tasks"      component={Tasks} />
+                <Route path="/login"      component={Login} />
+                <Route path="/logout"     component={Logout} />
             </div>
         </Router>
     </Provider>,

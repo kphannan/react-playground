@@ -18,6 +18,8 @@ const Drugs = (props) => {
      <li><a href="/physicians">Physicians</a></li>
      <li><a href="/profile">Profile</a></li>
      <li><a href="/tasks">Tasks</a></li>
+     <li><a href="/login">Login</a></li>
+     <li><a href="/logout">Logout</a></li>
    </ul>
 </div>
 
