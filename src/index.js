@@ -26,6 +26,7 @@ import Tasks from './component/Tasks/Tasks';
 import Home from './component/Home/Home';
 import Login  from './component/Login/Login';
 import Logout from './component/Login/Login';
+import AllPatients from './component/PatientCard/PatientCard';
 // import {} from './component//';
 // import {} from './component//';
 // import {} from './component//';
@@ -49,17 +50,18 @@ ReactDOM.render(
     <Provider store={store}>
         <Router>
             <div className='container-fluid container-cards-pf container-pf-nav-pf-vertical nav-pf-persistent-secondary'>
-                <Route exact path="/"     component={Home} />
-                <Route path="/payer"      component={Payer} />
-                <Route path="/accounts"   component={Accounts} />
-                <Route path="/broadcasts" component={Broadcasts} />
-                <Route path="/CARETrack"  component={CARETrack} />
-                <Route path="/drugs"      component={Drugs} />
-                <Route path="/physicians" component={Physicians} />
-                <Route path="/profile"    component={Profile} />
-                <Route path="/tasks"      component={Tasks} />
-                <Route path="/login"      component={Login} />
-                <Route path="/logout"     component={Logout} />
+                <Route exact path="/"        component={Home} />
+                <Route path="/payer"         component={Payer} />
+                <Route path="/accounts"      component={Accounts} />
+                <Route path="/broadcasts"    component={Broadcasts} />
+                <Route path="/CARETrack"     component={CARETrack} />
+                <Route path="/drugs"         component={Drugs} />
+                <Route path="/physicians"    component={Physicians} />
+                <Route path="/profile"       component={Profile} />
+                <Route path="/tasks"         component={Tasks} />
+                <Route path="/login"         component={Login} />
+                <Route path="/logout"        component={Logout} />
+                <Route path="/all-patients"  component={AllPatients} />
             </div>
         </Router>
     </Provider>,
